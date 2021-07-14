@@ -1,0 +1,30 @@
+{
+  "routes": {
+    "home": "inicio"
+  },
+  "default": {
+    "title": "Listado TODO",
+    "empty": "Lista TODO vacía",
+    "todoTitle": "Título TODO",
+    "add": "Añadir",
+    "deleteChecked": "Borrar Terminados",
+    "success": "Item TODO añadido",
+    "newError": "Título vacío no permitido",
+    "modalWarning": {
+      "title": "¡Cuidado!",
+      "description": "Elemento no finalizado. ¿Seguro que quieres borrarlo?",
+      "buttons": {
+        "cancel": "Cancelar",
+        "success": "Sí, estoy seguro"
+      }
+    },
+    "modalChecked": {
+      "title": "¡Atención!",
+      "description": "Se eliminarás los items finalizados. ¿Seguro que quieres borrarlo?",
+      "buttons": {
+        "cancel": "Cancelar",
+        "success": "Sí, estoy seguro"
+      }
+    }
+  }
+}

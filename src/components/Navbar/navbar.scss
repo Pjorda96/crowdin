@@ -1,0 +1,56 @@
+@import "../../colors.scss";
+
+.navbar {
+  background-color: color('navbar');
+
+  .navbar-brand {
+    color: color('navbar', 10);
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+
+    &:hover {
+      color: color('navbar', 10);
+      cursor: pointer;
+    }
+  }
+
+  .navbar-toggle {
+    border-color: color('navbar', 10);
+
+    span {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+  }
+
+  .router-link {
+    text-transform: capitalize;
+    color: color('navbar', 20);
+  }
+
+  .dropdown-language {
+    .dropdown-toggle {
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: bold;
+      padding: .5px 1px;
+      color: color('navbar', 20);
+
+      @media (max-width: 600px) {
+        margin-top: 7px;
+      }
+
+      @media (min-width: 601px) {
+        margin-left: auto;
+      }
+    }
+
+    .dropdown-menu {
+      width: 30px;
+
+      .dropdown-item {
+        text-transform: uppercase;
+      }
+    }
+  }
+}

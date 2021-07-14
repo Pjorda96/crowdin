@@ -1,0 +1,30 @@
+{
+  "routes": {
+    "home": "home"
+  },
+  "default": {
+    "title": "TODO List",
+    "empty": "Empty TODO list",
+    "todoTitle": "TODO title",
+    "add": "Add",
+    "deleteChecked": "Delete Finished",
+    "success": "TODO item added successfully",
+    "newError": "Empty title not allowed",
+    "modalWarning": {
+      "title": "Warning!",
+      "description": "Item not finished. Are you sure you want delete it?",
+      "buttons": {
+        "cancel": "Cancel",
+        "success": "Yes, I'm sure"
+      }
+    },
+    "modalChecked": {
+      "title": "Warning!",
+      "description": "All the finished items will be deleted. Are you sure you want delete it?",
+      "buttons": {
+        "cancel": "Cancel",
+        "success": "Yes, I'm sure"
+      }
+    }
+  }
+}
