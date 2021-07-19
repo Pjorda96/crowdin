@@ -1123,6 +1123,20 @@
     "exec-sh" "^0.3.2"
     "minimist" "^1.2.0"
 
+"@crowdin/crowdin-api-client@^1.11.1":
+  "integrity" "sha512-10P3dG3leFD30FSPF+RXfe7wQzUh6ZVHN774tbaLDNhbSz21QLSi4aKWwM3eefDXqOD+RC/B+Pp+oGmGvcfWMw=="
+  "resolved" "https://registry.npmjs.org/@crowdin/crowdin-api-client/-/crowdin-api-client-1.11.1.tgz"
+  "version" "1.11.1"
+  dependencies:
+    "axios" "^0.21.1"
+
+"@crowdin/ota-client@^0.3.0":
+  "integrity" "sha512-niU7FNIJFbVtfhnVu8y6WQzSwRqYqY4TMEDACi8yj5TdPnySZuSLuI4MgfTxSMqRcYWy7UGyNqJ11/QtSP0Z1Q=="
+  "resolved" "https://registry.npmjs.org/@crowdin/ota-client/-/ota-client-0.3.0.tgz"
+  "version" "0.3.0"
+  dependencies:
+    "axios" "0.21.1"
+
 "@csstools/convert-colors@^1.4.0":
   "integrity" "sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw=="
   "resolved" "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz"
@@ -2616,6 +2630,13 @@
   "integrity" "sha512-V+Nq70NxKhYt89ArVcaNL9FDryB3vQOd+BFXZIfO3RP6rwtj+2yqqqdHEkacutglPaZLkJeuXKCjCJDMGPtPqg=="
   "resolved" "https://registry.npmjs.org/axe-core/-/axe-core-4.1.2.tgz"
   "version" "4.1.2"
+
+"axios@^0.21.1", "axios@0.21.1":
+  "integrity" "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz"
+  "version" "0.21.1"
+  dependencies:
+    "follow-redirects" "^1.10.0"
 
 "axobject-query@^2.2.0":
   "integrity" "sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA=="
@@ -5219,7 +5240,7 @@
     "inherits" "^2.0.3"
     "readable-stream" "^2.3.6"
 
-"follow-redirects@^1.0.0":
+"follow-redirects@^1.0.0", "follow-redirects@^1.10.0":
   "integrity" "sha512-6mPTgLxYm3r6Bkkg0vNM0HTjfGrOEtsfbhagQvbxDEsEkpNhw582upBaoRZylzen6krEmxXJgt9Ju6HiI4O7BA=="
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.2.tgz"
   "version" "1.13.2"

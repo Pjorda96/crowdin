@@ -6,15 +6,15 @@ import es from './locales/es/es.json';
 
 const language = 'i18nextLng';
 
-const resources = {
-  en: { translation: en },
-  es: { translation: es }
-}
-
 const langAvailables = [
   { name: 'en', label: 'en' },
   { name: 'es', label: 'es' },
-]
+];
+
+const resources = {
+  en: { translation: en },
+  es: { translation: es }
+};
 
 const i18nConfig = {
   resources,
@@ -22,8 +22,8 @@ const i18nConfig = {
 
   interpolation: {
     escapeValue: false
-  }
-}
+  },
+};
 
 // i18n LanguageDetector config
 const i18nLDConfig = {
@@ -35,7 +35,7 @@ const i18nLDConfig = {
   // cache user language on
   caches: ['localStorage'],
   excludeCacheFor: ['cimode'], // languages to not persist (cookie, localStorage)
-}
+};
 
 i18n
   .use(LanguageDetector)
